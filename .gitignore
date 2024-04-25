@@ -1,0 +1,72 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Miscellaneous
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local env files
+.env
+
+# Debug log from npm
+npm-debug.log
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Compiled files
+/**/*.js
+/**/*.jsx
+/**/*.js.map
+/**/*.ts
+/**/*.tsx
+/**/*.ts.map
+
+# SCSS Source maps
+/**/*.css.map
+
+# Keystone auto-generated files
+.keystone
+
+# Mobile App Specific
+android/app/build
+ios/build
+ios/Pods
+!android/.gitignore
+!ios/.gitignore
+
+# Ignore certain config files that may contain sensitive info
+/config/*.json
+/secrets.json
+
+# Apollo GraphQL files
+/apollo.config.js
+
+# Typically, the public/uploads folder should be ignored if used for storing user uploads
+/public/uploads
