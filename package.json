@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "start-backend": "nodemon --exec node backend/server.js",
+    "start-backend": "nodemon --exec node backend/src/server.js",
     "test": "jest"
   },
   "dependencies": {
