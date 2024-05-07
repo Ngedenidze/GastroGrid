@@ -22,7 +22,7 @@
     "src/**/*.tsx",
     "src/**/*/*.ts",
     "src/**/*/*.tsx"
-  ],
+, "backend/src/controllers/userControllers.js"  ],
   "exclude": [
     "node_modules",
     "babel.config.js",
