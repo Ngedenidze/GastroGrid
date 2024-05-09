@@ -6,14 +6,22 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
     "outDir": "./dist",
     "skipLibCheck": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "customConditions": ["import", "require"]
+    "customConditions": [
+      "import",
+      "require"
+    ],
   },
   "include": [
     "**/*.ts",
@@ -21,8 +29,9 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*/*.ts",
-    "src/**/*/*.tsx"
-, "backend/src/controllers/userControllers.js"  ],
+    "src/**/*/*.tsx",
+    "backend/src/controllers/userControllers.js"
+  ],
   "exclude": [
     "node_modules",
     "babel.config.js",
