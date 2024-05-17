@@ -1,6 +1,8 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
+#import <RNGestureHandler.h> 
+
 
 @implementation AppDelegate
 
